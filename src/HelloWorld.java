@@ -1,14 +1,25 @@
 
 public class HelloWorld {
 
+	private static void println(String s){
+		
+		System.out.println(s);
+		
+	}
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		System.out.println("Hello World");
+		println("Hello World");
 		
-		System.out.println("Hello World 2");
 		
-		System.out.println("Hello World 3");
+		MyMath m = new MyMath();
+		
+		m.setVal1(1);
+		m.setVal2(2);
+		
+		println(String.valueOf(m.getVal1()));
+		
 
 	}
 
