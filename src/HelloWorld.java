@@ -20,6 +20,8 @@ public class HelloWorld {
 		
 		println(String.valueOf(m.getVal1()));
 		
+		DummieClass d = new DummieClass();
+		d.print("geht");
 
 	}
 
